@@ -3,7 +3,7 @@ lock "~> 3.17.3"
 
 set :application, "myapp"
 set :repo_url, "git@github.com:joygjica/Hogwartz.git"
-
+set :branch, 'main'
 
 set :user, 'ubuntu'
 set :ssh_options, {
