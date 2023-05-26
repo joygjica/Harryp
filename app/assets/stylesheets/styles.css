@@ -1,0 +1,11 @@
+.container{
+    border-radius: 1px;
+    background-color: aquamarine
+
+    ;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}

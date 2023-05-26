@@ -9,7 +9,7 @@
 
 require 'faker'
 
-10.times do
+20.times do
   Character.create(
     name: Faker::Movies::HarryPotter.character,
     location: Faker::Movies::HarryPotter.location,
