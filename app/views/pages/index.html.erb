@@ -1,2 +1,14 @@
 <h1>Pages#index</h1>
 <p>Find me in app/views/pages/index.html.erb</p>
+
+
+<h1>Personajes de Harry Potter</h1>
+<ul>
+  <% @characters.each do |character| %>
+    <li>
+      <strong>Nombre:</strong> <%= character.name %><br>
+      <strong>Locación:</strong> <%= character.location %><br>
+      <strong>Casa:</strong> <%= character.house %>
+    </li>
+  <% end %>
+</ul>
