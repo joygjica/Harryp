@@ -1,11 +1,74 @@
-.container{
-    border-radius: 1px;
-    background-color: aquamarine
+body{ background-color: rgb(15, 211, 146);
+}
 
-    ;
+
+.pogo{
+    
+   
+    height: 100%;
+
+    
 }
 
 li {
     text-decoration: none;
     list-style: none;
+}
+
+.carta{
+    gap: 2px;
+    height: 130px;
+    width: 280px;
+    background: white;
+    border-radius: 20px;
+    display: flex; 
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Harry Potter', sans-serif;
+                                                
+    
+    
+}
+
+span{   width: 250px; 
+    
+    
+}
+
+span:nth-child(1){   
+    margin-top: 1em; 
+      
+    
+}
+
+ul{
+   
+    display: flex;
+    /* height: 100vh; */
+    display: flex;
+    justify-content:space-between;
+    
+    gap: 18px;
+    flex-wrap: wrap;
+    font-family: 'Harry Potter', sans-serif;
+                                                
+}
+
+
+h1{ margin: 0.5em 0 0.5em 0 ;
+    text-align: center;
+    font-family: 'Harry Potter', sans-serif;
+                                                
+
+}
+
+
+.carta:hover{
+    transform: rotate(25deg);
+}
+
+body{
+    font-family: 'Harry Potter', sans-serif;
+                                                
 }

@@ -2,24 +2,46 @@
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-    <i class="fa-solid fa-broom-ball"></i> Harry Potter
+    <i class="fa-solid fa-broom-ball"></i> Harry Potter 
    
 
     </a>
   </div>
 </nav>
 
-<div class="container">
 
-<h1>Personajes de Harry Potter</h1>
+
+<div class="pogo">
+
+<h1>Personajes de Harry Potter <i class="fa-solid fa-hat-wizard"></i> </h1>
+
+
 <ul>
   <% @characters.each do |character| %>
-    <li>
-      <strong>Nombre:</strong> <%= character.name %><br>
-      <strong>Locación:</strong> <%= character.location %><br>
+
+
+    <li class= carta>
+
+    <span>
+      <strong>Nombre:</strong> <%= character.name %> 
+    </span>
+
+    <span>
+      <strong>Locación:</strong> <%= character.location %>
+    </span>
+
+
+    <span>
       <strong>Casa:</strong> <%= character.house %>
-    </li>
+    </span>
   <% end %>
+
+    </li>
+
+    
+
 </ul>
+
+
 
 </div>
